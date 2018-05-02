@@ -1,0 +1,50 @@
+<Intersection>
+Simple Example!!!	Intersection with just one stream each direction
+</Intersection>
+
+//TrafficStreams
+<TrafficStreams>
+N->S|E	North: Through, left
+N->S|E|W	North: Through, left, right
+N->W	North: right
+S->N|E|W	South: Through, left, right
+W->E|N|S	West: Through, left, right
+E->W|N|S	East: Through, left, right
+</TrafficStreams>
+
+//One or more PhasePlans. Each involves all intersectiopn streams
+<PhasePlan>
+// Phases, stream states during phase, and phase duration
+<Phases>
+EW	all EW streams	RRXRGG	5
+EW-Y	EW ending	RRXRYY	2
+Stop	all red	RRXRRR	1
+NS	all S streams	GGXGRR	4
+NS-Y	S ending	GGXYRR	2
+Stop	S stream has ended	GGXRRR	1
+N	all N streams	GGGRRR	3
+N-Y	N streams ending	YYYRRR	2
+All stop	all red	RRRRRR	1
+</Phases>
+</PhasePlan>
+
+//SignalFaces and the streams they observe.
+//location, orientation, kind, streams
+<SignalFaces>
+NE	N	STANDARD	N->S|E
+SE	N	STANDARD	N->S|E
+SW	N	STANDARD	N->S|E|W
+SW	N	RIGHT_ARROW	N->W
+
+NE	S	STANDARD	S->N|E|W
+SW	S	STANDARD	S->N|E|W
+NW	S	STANDARD	S->N|E|W
+
+SW	W	STANDARD	W->E|N|S
+NE	W	STANDARD	W->E|N|S
+SE	W	STANDARD	W->E|N|S
+
+SE	E	STANDARD	E->W|N|S
+SW	E	STANDARD	E->W|N|S
+NW	E	STANDARD	E->W|N|S
+</SignalFaces>
