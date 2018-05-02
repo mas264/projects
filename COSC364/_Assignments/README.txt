@@ -1,3 +1,0 @@
-flow assignment- involves formulating an optimization problem to generate an LP file for this problem using CPLEX to get numerical solutions
-
-ripv2 assignment- programming project which implements parts of RIP routing protocol and run several instances of a RIP demon under the Linux operating system on the same machine - each instance runs as a seperate process, and these processes communicate through local sockets. Emulating a small network, exploring the responsse of the RIP protocol to different types of faults.
