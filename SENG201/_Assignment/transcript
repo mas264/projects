@@ -1,0 +1,55 @@
+19:59:29.513> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:29.592> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:29.629> [TrafficStream: W->E|N|S (West: Through, left, right) ] going GREEN
+19:59:29.662> [TrafficStream: E->W|N|S (East: Through, left, right) ] going GREEN
+19:59:29.694> [Phase: EW (all EW streams) ] starting
+19:59:34.726> [Phase: EW (all EW streams) ] stopping
+19:59:34.743> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:34.759> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:34.793> [TrafficStream: W->E|N|S (West: Through, left, right) ] going YELLOW
+19:59:34.824> [TrafficStream: E->W|N|S (East: Through, left, right) ] going YELLOW
+19:59:34.854> [Phase: EW-Y (EW ending) ] starting
+19:59:36.864> [Phase: EW-Y (EW ending) ] stopping
+19:59:36.886> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:36.926> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:36.964> [TrafficStream: W->E|N|S (West: Through, left, right) ] going RED
+19:59:37.001> [TrafficStream: E->W|N|S (East: Through, left, right) ] going RED
+19:59:37.040> [Phase: Stop (all red) ] starting
+19:59:38.069> [Phase: Stop (all red) ] stopping
+19:59:38.093> [TrafficStream: N->S|E|W (North: Through, left, right) ] going GREEN
+19:59:38.141> [TrafficStream: S->N|E|W (South: Through, left, right) ] going GREEN
+19:59:38.174> [TrafficStream: W->E|N|S (West: Through, left, right) ] going RED
+19:59:38.204> [TrafficStream: E->W|N|S (East: Through, left, right) ] going RED
+19:59:38.236> [Phase: NS (all NS streams) ] starting
+19:59:40.245> [Phase: NS (all NS streams) ] stopping
+19:59:40.270> [TrafficStream: N->S|E|W (North: Through, left, right) ] going YELLOW
+19:59:40.292> [TrafficStream: S->N|E|W (South: Through, left, right) ] going YELLOW
+19:59:40.324> [TrafficStream: W->E|N|S (West: Through, left, right) ] going RED
+19:59:40.353> [TrafficStream: E->W|N|S (East: Through, left, right) ] going RED
+19:59:40.369> [Phase: NS-Y (NS ending) ] starting
+19:59:42.379> [Phase: NS-Y (NS ending) ] stopping
+19:59:42.397> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:42.420> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:42.463> [TrafficStream: W->E|N|S (West: Through, left, right) ] going RED
+19:59:42.503> [TrafficStream: E->W|N|S (East: Through, left, right) ] going RED
+19:59:42.530> [Phase: Stop (all red) ] starting
+19:59:43.540> [Phase: Stop (all red) ] stopping
+19:59:43.601> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:43.612> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:43.637> [TrafficStream: W->E|N|S (West: Through, left, right) ] going GREEN
+19:59:43.649> [TrafficStream: E->W|N|S (East: Through, left, right) ] going GREEN
+19:59:43.673> [Phase: EW (all EW streams) ] starting
+19:59:48.681> [Phase: EW (all EW streams) ] stopping
+19:59:48.693> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:48.744> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:48.775> [TrafficStream: W->E|N|S (West: Through, left, right) ] going YELLOW
+19:59:48.806> [TrafficStream: E->W|N|S (East: Through, left, right) ] going YELLOW
+19:59:48.836> [Phase: EW-Y (EW ending) ] starting
+19:59:50.844> [Phase: EW-Y (EW ending) ] stopping
+19:59:50.869> [TrafficStream: N->S|E|W (North: Through, left, right) ] going RED
+19:59:50.910> [TrafficStream: S->N|E|W (South: Through, left, right) ] going RED
+19:59:50.945> [TrafficStream: W->E|N|S (West: Through, left, right) ] going RED
+19:59:50.978> [TrafficStream: E->W|N|S (East: Through, left, right) ] going RED
+19:59:51.098> [Phase: Stop (all red) ] starting
+19:59:51.781> Stopping
+19:59:52.111> [Phase: Stop (all red) ] stopping
