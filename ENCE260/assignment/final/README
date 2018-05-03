@@ -1,0 +1,13 @@
+Running the make program will insist the user to "PRESS NAV BUTTON TO START", 
+once pressed the user will have the option to press NAVSWITCH_NORTH and NAVSWITCH_SOUTH
+to scroll through the options of PAPER, SCISSORS and ROCK.
+Pressing the NAVSWITCH will select the state that the user is currently seeing 
+on the display matrix and a blue light from LED1 to confirm the selected state.
+
+Once both players have selected a state their own FunKit will display on the
+matrix W for WIN, T for TIE and L for LOSE. The players then can play again by pressing 
+the push button which will take them back to selecting a state.
+
+The users also have the option of seeing how may times they have won through 9 rounds by 
+pressing NAVSWITCH_WEST and how many rounds they have played by pressing NAVSWITCH_EAST.
+After 9 rounds a message will display saying "PRESS PUSH BUTTON FOR NEW ROUND" in which both the counters for win and polayed is reverted back to 0.
