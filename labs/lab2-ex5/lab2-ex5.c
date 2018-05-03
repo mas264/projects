@@ -30,7 +30,17 @@ static const uint8_t bitmap[] =
 static void display_column (uint8_t row_pattern, uint8_t current_column)
 {
 
-    /* TODO */
+	uint8_t counter = 0;
+	while (counter < 8) {
+		if ((row_pattern >> current_column) & 1) {
+			pio_output_low(rows[current_column]);
+			pio_output_low(cols[current_column]);
+		} else {
+			pio_output_high(rows[current_column]);
+			pio_output_high(cols[current_column]);
+		}
+	counter++;
+	}
 
 }
 
@@ -43,6 +53,19 @@ int main (void)
     pacer_init (500);
     
     /* TODO: Initialise LED matrix pins.  */
+    pio_config_set(LEDMAT_COL1_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_COL2_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_COL3_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_COL4_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_COL5_PIO, PIO_OUTPUT_HIGH);
+    
+    pio_config_set(LEDMAT_ROW1_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW2_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW3_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW4_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW5_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW6_PIO, PIO_OUTPUT_HIGH);
+    pio_config_set(LEDMAT_ROW7_PIO, PIO_OUTPUT_HIGH);
     
 
     while (1)

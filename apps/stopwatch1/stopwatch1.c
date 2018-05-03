@@ -10,12 +10,15 @@
 #include "../fonts/font3x5_1.h"
 
 
+
 /* Define polling rates in Hz.  */
 #define BUTTON_TASK_RATE 100
 
 #define DISPLAY_TASK_RATE 250
 
 #define TIMER_TASK_RATE 100
+
+#define TASK_RATE (F_CPU / TIMER_CLOCK_DIVISOR)
 
 
 static bool run;
